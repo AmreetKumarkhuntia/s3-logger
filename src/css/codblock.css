@@ -1,0 +1,142 @@
+/* Key color: Yellow */
+:root {
+    --base-yellow: #e5c07b;
+    /* Base yellow color */
+    --light-yellow: #f0e3c8;
+    /* Lighter yellow for contrast */
+    --dark-yellow: #bf9c44;
+    /* Darker yellow for depth */
+    --complementary-red: #d16969;
+    /* Complementary red */
+    --complementary-cyan: #56b6c2;
+    /* Complementary cyan */
+    --complementary-blue: #61afef;
+    /* Complementary light blue */
+    --complementary-green: #98c379;
+    /* Complementary green */
+    --complementary-magenta: #c678dd;
+    /* Complementary magenta */
+    --text-color: #abb2bf;
+    /* Base text color */
+    --background-color: #1e1e1e;
+    /* VSCode background color */
+
+
+
+    /* my colors */
+    --orange: #ff9b4e;
+    --blue: #b4fcff;
+}
+
+/* Comment */
+.hljs-meta,
+.hljs-comment {
+    color: #6a9955;
+    /* Complementary muted green for comments */
+}
+
+/* Red */
+.hljs-tag,
+.hljs-doctag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-template-tag,
+.hljs-selector-pseudo,
+.hljs-selector-attr,
+.hljs-variable.language_,
+.hljs-deletion {
+    color: var(--complementary-red);
+    /* Red for tags and deletions */
+}
+
+/* Orange */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-number,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-link {
+    color: var(--dark-yellow);
+    /* Darker yellow-orange to match base yellow */
+}
+
+/* Yellow (Base) */
+.hljs-built_in,
+.hljs-attribute {
+    color: var(--base-yellow);
+    /* Key color for built-ins and attributes */
+}
+
+/* Cyan */
+.hljs-selector-tag {
+    color: var(--complementary-cyan);
+    /* Cyan for selector tags */
+}
+
+/* Light Blue */
+.hljs-keyword,
+.hljs-title.function_,
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-subst,
+.hljs-property {
+    color: var(--complementary-blue);
+    /* Light blue for keywords and functions */
+}
+
+/* Green */
+.hljs-selector-tag {
+    color: var(--complementary-green);
+    /* Green for selectors */
+}
+
+/* Green(er) */
+.hljs-quote,
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+    color: var(--orange);
+    /* Green for strings and additions */
+}
+
+/* Blue */
+.hljs-code,
+.hljs-formula,
+.hljs-section {
+    color: var(--complementary-blue);
+    /* Light blue for code and sections */
+}
+
+/* Magenta */
+.hljs-name,
+.hljs-operator,
+.hljs-char.escape_,
+.hljs-attr {
+    color: var( --blue);
+    /* Magenta for keywords and operators */
+}
+
+/* White */
+.hljs-punctuation {
+    color: var(--base-yellow);
+    /* White for punctuation */
+}
+
+.hljs {
+    background: var(--background-color);
+    /* VSCode dark background color */
+    color: var(--text-color);
+    /* Base text color */
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}

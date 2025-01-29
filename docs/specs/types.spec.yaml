@@ -1,0 +1,9 @@
+info:
+  version: 0.0.1
+  title: Sonar Types spec
+
+groupedTypes:
+  S3Logs:     
+    $ref: './docs/specs/types/logs.yaml#/Logs'
+  Filters:
+    $ref: './docs/specs/types/filter.yaml#/Filter'

@@ -1,0 +1,122 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.blue-button {
+    margin: 10px 0 10px 0;
+    background-color: #007bff;
+    color: white !important;
+    border: none;
+    padding: 14px 20px 10px 20px;
+    ;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.blue-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #0056b3;
+}
+
+.blue-button:active {
+    background-color: #004085;
+    transform: scale(0.98);
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-size: 32px;
+    font-weight: semi-bold;
+    margin-bottom: 12px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.h3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #333;
+    text-transform: none;
+    font-style: italic;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #444;
+    text-transform: none;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #555;
+    text-transform: none;
+}
+
+.h6 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #666;
+    text-transform: none;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: normal;
+    color: #222;
+    line-height: 1.6;
+}
+
+.text2 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #222;
+    line-height: 1.6;
+}
+
+.text3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+    line-height: 1.6;
+}
+
+.checkbox {
+    height: 16px !important;
+    width: auto;
+}
+
+.tree-item-summary {
+    padding: 3% 3%;
+}
+
+.title-border-bottom {
+    border-bottom: 2px solid #4c4c4c;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+.bold {
+    font-weight: bold;
+}

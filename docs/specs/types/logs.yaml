@@ -1,0 +1,69 @@
+Logs:
+  S3Logs:
+    type: object
+    required:
+      - id
+    properties:
+      id:
+        type: string
+      protocol:
+        type: string
+      HTTPProtocol:          
+        type: string
+      timestamp:
+        type: string
+      appInfo:
+        type: string
+      clientIp:
+        type: string
+      serverIp:
+        type: string
+      connectTime:
+        type: string
+      processingTime:
+        type: string
+      responseTime:
+        type: string
+      statusCode:
+        type: string
+      requestSize:
+        type: string
+      responseSize:
+        type: string
+      requestMethod: 
+        type: string
+      requestDomain:      
+        type: string
+      requestPath:          
+        type: string
+      userAgent:
+        type: string
+      sslCipher:
+        type: string
+      tlsVersion:
+        type: string
+      targetGroupArn:
+        type: string
+      traceId:
+        type: string
+      certificateArn:
+        type: string
+      unknownField:
+        type: string
+      secondTimestamp:
+        type: string
+      wafDetails:
+        type: string
+      fieldA:
+        type: string
+      fieldB:
+        type: string
+      transactionId:
+        type: string
+      logText:
+        type: string
+
+  S3logFilters:
+    type: array
+    items:
+      type: string

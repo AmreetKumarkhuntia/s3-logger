@@ -1,0 +1,32 @@
+Filter:
+  FilterItem:
+    type: object
+    required:
+      - label
+      - value
+      - count
+    properties:
+      label:
+        type: string
+      value:
+        type: string
+      count:
+        type: number
+
+  Filter:
+    type: object
+    required:
+      - labelName
+      - values
+      - valueHolder
+    properties:
+      labelName:
+        type: string
+      valueHolder:
+        type: array
+        items:
+          $ref: './docs/specs/types/filter.yaml#/Filter/FilterItem'
+      values:
+        type: array
+        items:
+          $ref: './docs/specs/types/filter.yaml#/Filter/FilterItem'
